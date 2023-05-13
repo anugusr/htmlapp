@@ -3,6 +3,7 @@ pipeline {
   stages {
      stage('Build') {
       steps {
+        git url: 'https://github.com/anugusr/htmlapp.git'
         echo 'Hello World'
       }
     }
